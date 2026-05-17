@@ -16,12 +16,12 @@ def get_requirements(file_path:str)->List[str]:
     
     return requirements
 
-
 setup(
-    name='mlproject',
-    version='0.0.1',
-    author='kartik',
-    author_email='kartiksgavali2004@gmail.com',
-    packages=find_packages(),
-    install_requires=get_requirements('requirements.txt')
+name='mlproject',
+version='0.0.1',
+author='Kartik',
+author_email='kartiksgavali2004@gmail.com',
+packages=find_packages(),
+install_requires=get_requirements('requirements.txt')
+
 )
